@@ -5,10 +5,8 @@ import { OmbuLogo } from "./OmbuLogo";
 const footerLinks = {
   navegacion: [
     { label: "Inicio", href: "#inicio" },
-    { label: "Análisis", href: "#analisis" },
+    { label: "Artículos", href: "#articulos" },
     { label: "Mercados", href: "#mercados" },
-    { label: "Geopolítica", href: "#geopolitica" },
-    { label: "Opinión", href: "#opinion" },
   ],
   legal: [
     { label: "Términos y Condiciones", href: "#" },

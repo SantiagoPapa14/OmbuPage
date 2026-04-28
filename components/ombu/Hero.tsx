@@ -51,10 +51,10 @@ export function Hero() {
                 <ArrowRight size={18} />
               </a>
               <a
-                href="#analisis"
+                href="#articulos"
                 className="inline-flex items-center justify-center gap-2 border border-[#FAF8F3]/20 text-[#FAF8F3] px-8 py-4 font-sans font-semibold tracking-wide hover:border-[#FAF8F3]/60 transition-colors"
               >
-                Ver análisis
+                Ver artículos
               </a>
             </div>
 

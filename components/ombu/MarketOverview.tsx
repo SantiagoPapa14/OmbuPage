@@ -74,7 +74,9 @@ export function MarketOverview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="font-sans text-xs font-semibold text-[#C9973F] tracking-[0.2em] uppercase"></span>
+          <span className="font-sans text-xs font-semibold text-[#C9973F] tracking-[0.2em] uppercase">
+            Ahora mismo
+          </span>
           <h2 className="font-serif text-4xl sm:text-5xl font-semibold text-[#0F0F0F] mt-3">
             Resumen de Mercados
           </h2>
