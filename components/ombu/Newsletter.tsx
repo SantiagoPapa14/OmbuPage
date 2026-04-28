@@ -7,9 +7,17 @@ export function Newsletter() {
   const [email, setEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
+      await fetch("https://former-production.up.railway.app/submit/ombu", {
+        method: "POST",
+        body: JSON.stringify({
+          email,
+          name: "Ombu",
+          message: "Subscribirse al newsletter",
+        }),
+      });
       setIsSubmitted(true);
       setEmail("");
     }

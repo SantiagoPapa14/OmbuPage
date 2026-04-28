@@ -4,14 +4,56 @@ import { TrendingUp, TrendingDown, Minus } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const placeholderData = [
-  { name: "MERVAL", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "YPFD", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "PAMP", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "GGAL", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "BMA", value: "Cargando...", change: "0%", trend: "down" },
-  { name: "TECO2", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "EDN", value: "Cargando...", change: "0%", trend: "neutral" },
-  { name: "CEPU", value: "Cargando...", change: "0%", trend: "neutral" },
+  {
+    name: "MERVAL",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  {
+    name: "YPFD",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  {
+    name: "PAMP",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  {
+    name: "GGAL",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  { name: "BMA", price: 0, open: 0, change: "0%", trend: "down" },
+  {
+    name: "TECO2",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  {
+    name: "EDN",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
+  {
+    name: "CEPU",
+    price: 0,
+    open: 0,
+    change: "0%",
+    trend: "neutral",
+  },
 ];
 
 export function MarketOverview() {
@@ -19,7 +61,7 @@ export function MarketOverview() {
 
   useEffect(() => {
     async function load() {
-      const res = await fetch("http://localhost:8000/prices");
+      const res = await fetch("https://wacho-production.up.railway.app/prices");
       const data = await res.json();
       console.log(data);
       setMarketData(data);

@@ -15,7 +15,7 @@ export function Hero() {
         <div
           className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "url('/OmbuAI1.jpeg')",
+            backgroundImage: "url('/Ombu2K.webp')",
             backgroundSize: "cover",
           }}
         />

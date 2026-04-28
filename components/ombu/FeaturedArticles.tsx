@@ -19,7 +19,7 @@ const articles = [
     excerpt:
       "Un análisis especulativo sobre cómo las decisiones bélicas de Trump afectan nuestro mercado local.",
     readTime: "8 min",
-    date: "Mañana 26 Abr 2026",
+    date: "Mañana 29 Abr 2026",
     featured: true,
     image: "IranWar.webp",
     icon: Swords,
@@ -31,7 +31,7 @@ const articles = [
     excerpt:
       "El impacto de la deuda Chanqueña y las letras del tesoro de Caputo",
     readTime: "6 min",
-    date: "Mañana 26 Abr 2026",
+    date: "Mañana 29 Abr 2026",
     image: "",
     icon: Banknote,
   },
@@ -42,7 +42,7 @@ const articles = [
     excerpt:
       "Potencial atractivo para inversiones extranjeras en Argentina, impacto esperable por sector.",
     readTime: "5 min",
-    date: "Mañana 26 Abr 2026",
+    date: "Mañana 29 Abr 2026",
     image: "",
     icon: BarChart3,
   },
@@ -52,7 +52,7 @@ const articles = [
     title: "Nuevo sistema rompe software en ALICs",
     excerpt: "Como las ALICs estan bajo aprietos bajo nuevo sistema en BYMA",
     readTime: "7 min",
-    date: "Mañana 26 Abr 2026",
+    date: "Mañana 29 Abr 2026",
     image: "",
     icon: Landmark,
   },
