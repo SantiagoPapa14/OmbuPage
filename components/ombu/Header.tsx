@@ -19,7 +19,11 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <img src="/Full_Transparent.png" alt="Ombu Logo" className="h-20" />
+          <img
+            src="/Partial_Transparent.png"
+            alt="Ombu Logo"
+            className="h-20"
+          />
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-10">
             {navItems.map((item) => (
