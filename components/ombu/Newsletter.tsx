@@ -12,6 +12,9 @@ export function Newsletter() {
     if (email) {
       await fetch("https://former-production.up.railway.app/submit/ombu", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({
           email,
           name: "Ombu",
