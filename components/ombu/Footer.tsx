@@ -33,7 +33,11 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <OmbuLogo size={48} className="mb-6 [&_span]:!text-[#FAF8F3]" />
+            <img
+              src="/Logo_Transparent.png"
+              alt="Ombu Logo"
+              className="h-48 w-48 object-cover"
+            />
             <p className="font-sans text-sm text-[#888888] leading-relaxed mt-6">
               Información que da raíces.
               <br />
