@@ -18,8 +18,8 @@ const footerLinks = {
       label: "contacto@ombufinanzas.com",
       href: "mailto:contacto@ombufinanzas.com",
     },
-    { label: "Prensa", href: "#" },
-    { label: "Publicidad", href: "#" },
+    //    { label: "Prensa", href: "#" },
+    //    { label: "Publicidad", href: "#" },
   ],
 };
 
@@ -108,10 +108,11 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-20 pt-10 border-t border-[#222222]">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
             <p className="font-sans text-xs text-[#555555] tracking-wide">
               © 2026 Ombú Finanzas. Todos los derechos reservados.
             </p>
+            {/* Socials
             <div className="flex items-center gap-8">
               <a
                 href="#"
@@ -132,6 +133,7 @@ export function Footer() {
                 Instagram
               </a>
             </div>
+            */}
           </div>
         </div>
       </div>
