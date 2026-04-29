@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { OmbuLogo } from "./OmbuLogo";
 
 const navItems = [
   { label: "Inicio", href: "#inicio" },
@@ -11,7 +10,7 @@ const navItems = [
   { label: "Suscribirse", href: "#suscribirse", highlight: true },
 ];
 
-export function Header() {
+export function Header({ links = navItems }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -27,7 +26,7 @@ export function Header() {
           />
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-10">
-            {navItems.map((item) => (
+            {links.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
