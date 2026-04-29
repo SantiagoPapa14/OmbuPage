@@ -22,7 +22,8 @@ export function Header() {
           <img
             src="/Partial_Transparent.png"
             alt="Ombu Logo"
-            className="h-20"
+            className="h-20 cursor-pointer"
+            onClick={() => (window.location.href = "/")}
           />
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-10">

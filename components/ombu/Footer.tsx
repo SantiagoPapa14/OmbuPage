@@ -9,9 +9,9 @@ const footerLinks = {
     { label: "Mercados", href: "#mercados" },
   ],
   legal: [
-    { label: "Términos y Condiciones", href: "#" },
-    { label: "Política de Privacidad", href: "#" },
-    { label: "Aviso Legal", href: "#" },
+    { label: "Términos y Condiciones", href: "/legal/terminos" },
+    { label: "Política de Privacidad", href: "/legal/privacidad" },
+    { label: "Aviso Legal", href: "/legal/aviso" },
   ],
   contacto: [
     {
