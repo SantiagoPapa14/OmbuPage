@@ -2,38 +2,37 @@
 
 import {
   Clock,
-  ArrowRight,
-  TrendingUp,
-  Globe,
   BarChart3,
-  Swords,
-  Banknote,
   Landmark,
+  BanknoteArrowUp,
+  LockOpenIcon,
 } from "lucide-react";
 
 const articles = [
   {
     id: 1,
-    category: "Conflictos",
-    title: "El impacto de la guerra Americana-Irani en nuestra economía",
+    category: "Deuda",
+    title: "Chubut busca US$ 650 millones en Wall Street",
     excerpt:
-      "Un análisis especulativo sobre cómo las decisiones bélicas de Trump afectan nuestro mercado local.",
-    readTime: "8 min",
-    date: "Mañana 29 Abr 2026",
+      "Un pantallazo del uso que la provincio de Chubut le dará a la deuda",
+    readTime: "6 min",
+    date: "4 May 2026",
     featured: true,
-    image: "IranWar.webp",
-    icon: Swords,
+    image: "ChubutDeuda.jpeg",
+    icon: BanknoteArrowUp,
+    name: "deuda-chubut",
   },
   {
     id: 2,
-    category: "Renta Fija",
-    title: "Nueva emisión de bonos provinciales sacuden la city porteña",
+    category: "Regulaciones",
+    title: "La CNV acelera la motosierra regulatoria",
     excerpt:
-      "El impacto de la deuda Chanqueña y las letras del tesoro de Caputo",
-    readTime: "6 min",
-    date: "Mañana 29 Abr 2026",
+      "Cambios en regulaciones de la CNV para incentivar el financiamiento",
+    readTime: "8 min",
+    date: "4 May 2026",
     image: "",
-    icon: Banknote,
+    icon: LockOpenIcon,
+    name: "motosierra-cnv",
   },
   {
     id: 3,
@@ -42,7 +41,7 @@ const articles = [
     excerpt:
       "Potencial atractivo para inversiones extranjeras en Argentina, impacto esperable por sector.",
     readTime: "5 min",
-    date: "Mañana 29 Abr 2026",
+    date: "Mañana 5 May 2026",
     image: "",
     icon: BarChart3,
   },
@@ -52,7 +51,7 @@ const articles = [
     title: "Nuevo sistema rompe software en ALICs",
     excerpt: "Como las ALICs estan bajo aprietos bajo nuevo sistema en BYMA",
     readTime: "7 min",
-    date: "Mañana 29 Abr 2026",
+    date: "Pendiente",
     image: "",
     icon: Landmark,
   },
@@ -90,8 +89,13 @@ export function FeaturedArticles() {
           {/* Featured Article */}
           {featuredArticle && (
             <article
-              className="group relative overflow-hidden bg-cover bg-center"
+              className="group relative overflow-hidden bg-cover bg-center cursor-pointer"
               style={{ backgroundImage: `url(${featuredArticle.image})` }}
+              onClick={() => {
+                if (featuredArticle.name) {
+                  window.location.href = `/articulos/${featuredArticle.name}`;
+                }
+              }}
             >
               {/* Green overlay */}
               <div className="absolute inset-0 bg-[#14332A]/60 group-hover:bg-[#14332A]/80 transition-colors" />
@@ -129,11 +133,16 @@ export function FeaturedArticles() {
             {regularArticles.map((article, index) => (
               <article
                 key={article.id}
-                className={`group bg-white p-8 border-l-2 border-l-transparent hover:border-l-[#C9973F] transition-all ${
+                className={`group bg-white p-8 border-l-2 border-l-transparent hover:border-l-[#C9973F] transition-all cursor-pointer ${
                   index !== regularArticles.length - 1
                     ? "border-b border-b-[#E5E2DB]"
                     : ""
                 }`}
+                onClick={() => {
+                  if (article.name) {
+                    window.location.href = `/articulos/${article.name}`;
+                  }
+                }}
               >
                 <div className="flex items-start gap-6">
                   <div className="p-4 border border-[#E5E2DB] group-hover:border-[#C9973F] group-hover:bg-[#C9973F]/5 transition-all">
