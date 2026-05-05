@@ -122,7 +122,7 @@ export function MarketOverview() {
                 </div>
 
                 <div className="font-serif text-2xl font-semibold text-[#0F0F0F]">
-                  {item.price}
+                  {item.price.toFixed(3)}
                 </div>
 
                 <div
