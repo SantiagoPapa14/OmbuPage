@@ -19,6 +19,9 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Ombú Finanzas | Análisis • Visión • Decisiones",
+  icons: {
+    icon: "/favicon.ico",
+  },
   description:
     "Diario de inversiones y geopolítica que interpreta el mundo para transformar la información en decisiones financieras inteligentes.",
   keywords: [
