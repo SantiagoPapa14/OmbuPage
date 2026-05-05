@@ -32,7 +32,8 @@ const articles = [
     category: "Deuda",
     title:
       "Milei consigue dólares al 5% mientras Chubut paga casi 10% y pone regalías petroleras",
-    excerpt: "Como las ALICs estan bajo aprietos bajo nuevo sistema en BYMA",
+    excerpt:
+      "La diferencia entre el financiemiento nacional contra el provincial, sus tazas y regalías",
     readTime: "7 min",
     date: "5 May 2026",
     image: "ChubutVsNacion.jpeg",
