@@ -1,29 +1,10 @@
 "use client";
 
-import {
-  Clock,
-  BarChart3,
-  Landmark,
-  BanknoteArrowUp,
-  LockOpenIcon,
-} from "lucide-react";
+import { Clock, BarChart3, BanknoteArrowUp, LockOpenIcon } from "lucide-react";
 
 const articles = [
   {
     id: 1,
-    category: "Deuda",
-    title: "Chubut busca US$ 650 millones en Wall Street",
-    excerpt:
-      "Un pantallazo del uso que la provincio de Chubut le dará a la deuda",
-    readTime: "6 min",
-    date: "4 May 2026",
-    featured: true,
-    image: "ChubutDeuda.jpeg",
-    icon: BanknoteArrowUp,
-    name: "deuda-chubut",
-  },
-  {
-    id: 2,
     category: "Regulaciones",
     title: "La CNV acelera la motosierra regulatoria",
     excerpt:
@@ -35,25 +16,40 @@ const articles = [
     name: "motosierra-cnv",
   },
   {
+    id: 2,
+    category: "Deuda",
+    title: "Chubut busca US$ 650 millones en Wall Street",
+    excerpt:
+      "Un pantallazo del uso que la provincio de Chubut le dará a la deuda",
+    readTime: "6 min",
+    date: "4 May 2026",
+    image: "ChubutDeuda.jpeg",
+    icon: BanknoteArrowUp,
+    name: "deuda-chubut",
+  },
+  {
     id: 3,
+    category: "Deuda",
+    title:
+      "Milei consigue dólares al 5% mientras Chubut paga casi 10% y pone regalías petroleras",
+    excerpt: "Como las ALICs estan bajo aprietos bajo nuevo sistema en BYMA",
+    readTime: "7 min",
+    date: "5 May 2026",
+    image: "ChubutVsNacion.jpeg",
+    icon: BanknoteArrowUp,
+    name: "milei-dolares-chubut",
+    featured: true,
+  },
+  {
+    id: 4,
     category: "Análisis",
     title: "Proyecto CNV autoriza ETFs locales",
     excerpt:
       "Potencial atractivo para inversiones extranjeras en Argentina, impacto esperable por sector.",
     readTime: "5 min",
-    date: "Mañana 5 May 2026",
-    image: "",
-    icon: BarChart3,
-  },
-  {
-    id: 4,
-    category: "Banca",
-    title: "Nuevo sistema rompe software en ALICs",
-    excerpt: "Como las ALICs estan bajo aprietos bajo nuevo sistema en BYMA",
-    readTime: "7 min",
     date: "Pendiente",
     image: "",
-    icon: Landmark,
+    icon: BarChart3,
   },
 ];
 
