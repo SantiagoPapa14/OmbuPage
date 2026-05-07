@@ -50,6 +50,9 @@ export default function RootLayout({
       lang="es"
       className={`${cormorant.variable} ${montserrat.variable} bg-[#F2EFE6]`}
     >
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === "production" && <Analytics />}
