@@ -1,6 +1,12 @@
 "use client";
 
-import { Clock, BarChart3, BanknoteArrowUp, LockOpenIcon } from "lucide-react";
+import {
+  Clock,
+  BarChart3,
+  BanknoteArrowUp,
+  LockOpenIcon,
+  Globe,
+} from "lucide-react";
 
 const articles = [
   {
@@ -39,18 +45,18 @@ const articles = [
     image: "ChubutVsNacion.jpeg",
     icon: BanknoteArrowUp,
     name: "milei-dolares-chubut",
-    featured: true,
   },
   {
     id: 4,
-    category: "Análisis",
-    title: "Proyecto CNV autoriza ETFs locales",
-    excerpt:
-      "Potencial atractivo para inversiones extranjeras en Argentina, impacto esperable por sector.",
+    category: "Internacional",
+    title: "Nueva Calificación de Argentina",
+    excerpt: "Argentina mejora su calificación: por qué importa si invertís",
     readTime: "5 min",
-    date: "Pendiente",
-    image: "",
-    icon: BarChart3,
+    date: "11 May 2026",
+    image: "fitch_ratings.png",
+    name: "calificacion-fitch",
+    icon: Globe,
+    featured: true,
   },
 ];
 
