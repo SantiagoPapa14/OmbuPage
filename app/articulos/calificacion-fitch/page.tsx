@@ -44,6 +44,16 @@ export default function FitchCalificacionArticle() {
             (intereses, márgenes o valor) puede conseguir el emisor cuando sale
             a buscar financiamiento.
           </p>
+          <p>
+            En este caso, Fitch elevó la calificación de Argentina a B-, lo que
+            significa que el país muestra una mejor capacidad para cumplir con
+            sus obligaciones de deuda, aunque todavía sigue expuesto a shocks
+            económicos, financieros o políticos. La mejora es relevante porque
+            la calificación anterior, CCC+, reflejaba un escenario de mayor
+            vulnerabilidad y un riesgo de incumplimiento más alto (“Default”).
+            El salto a B- no elimina el riesgo argentino, pero para Fitch, la
+            probabilidad de pago del país mejoró respecto del escenario previo.
+          </p>
 
           <h2 className="font-serif text-2xl font-semibold text-[#14332A] mt-12 mb-4">
             Las razones detrás de la mejora
