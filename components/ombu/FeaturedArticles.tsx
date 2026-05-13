@@ -47,6 +47,19 @@ const articles = [
     name: "milei-dolares-chubut",
   },
   {
+    id: 5,
+    category: "CEDEARs",
+    title: "Se listan nuevos CEDEARs en el Mercado Argentino",
+    excerpt:
+      "El mercado argentino suma 13 nuevos certificados para invertir en empresas extranjeras desde BYMA. Comparativo, tabla y claves para evaluar cada oportunidad.",
+    readTime: "8 min",
+    date: "13 May 2026",
+    image: "NUEVOCEDEARS.png",
+    icon: BarChart3,
+    name: "cedears-nuevos",
+    featured: true,
+  },
+  {
     id: 4,
     category: "Internacional",
     title: "Nueva Calificación de Argentina",
@@ -56,7 +69,6 @@ const articles = [
     image: "fitch_ratings.png",
     name: "calificacion-fitch",
     icon: Globe,
-    featured: true,
   },
 ];
 
