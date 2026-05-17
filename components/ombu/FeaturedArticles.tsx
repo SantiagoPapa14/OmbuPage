@@ -57,6 +57,20 @@ const articles = [
     image: "NUEVOCEDEARS.png",
     icon: BarChart3,
     name: "cedears-nuevos",
+    featured: false,
+  },
+  {
+    id: 6,
+    category: "Mercado",
+    title:
+      "El dato que cambia el humor del mercado: baja la inflación y el BCRA compra dólares",
+    excerpt:
+      "La inflación baja y el BCRA acumula reservas en un contexto inédito, cambiando expectativas y oportunidades para los inversores en pesos.",
+    readTime: "9 min",
+    date: "15 May 2026",
+    image: "/inflacion-vert.png",
+    icon: BanknoteArrowUp,
+    name: "inflacion-bcra",
     featured: true,
   },
   {
