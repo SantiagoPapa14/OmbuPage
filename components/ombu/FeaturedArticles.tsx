@@ -71,6 +71,18 @@ const articles = [
     image: "/inflacion-vert.png",
     icon: BanknoteArrowUp,
     name: "inflacion-bcra",
+    featured: false,
+  },
+  {
+    id: 7,
+    category: "Plazo Fijo",
+    title: "Plazo Fijo 2026: por qué ya no alcanza y qué poner en su lugar",
+    excerpt: "Con números reales, analizamos si el plazo fijo sigue siendo competitivo contra otros instrumentos en 2026 y qué alternativas existen para cuidar tus ahorros.",
+    readTime: "7 min",
+    date: "18 May 2026",
+    image: "/fijo_vert.png",
+    icon: BanknoteArrowUp,
+    name: "fijo-vs-instrumentos",
     featured: true,
   },
   {

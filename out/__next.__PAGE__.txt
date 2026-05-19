@@ -1,0 +1,12 @@
+1:"$Sreact.fragment"
+2:I[47361,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"Header"]
+3:I[26014,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"Hero"]
+4:I[43686,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"FeaturedArticles"]
+5:I[65172,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"MarketOverview"]
+6:I[624,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"BrandValues"]
+7:I[20201,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"Newsletter"]
+8:I[50826,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js","/_next/static/chunks/0if28acsawpfu.js"],"Footer"]
+9:I[58839,["/_next/static/chunks/0r7~bmy6grmei.js","/_next/static/chunks/17pwl2g2tf~nt.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/0if28acsawpfu.js","async":true}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7pq-VHLACqqM9cquMR7PA"}
+b:null
