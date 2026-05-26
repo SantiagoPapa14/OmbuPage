@@ -77,12 +77,26 @@ const articles = [
     id: 7,
     category: "Plazo Fijo",
     title: "Plazo Fijo 2026: por qué ya no alcanza y qué poner en su lugar",
-    excerpt: "Con números reales, analizamos si el plazo fijo sigue siendo competitivo contra otros instrumentos en 2026 y qué alternativas existen para cuidar tus ahorros.",
+    excerpt:
+      "Con números reales, analizamos si el plazo fijo sigue siendo competitivo contra otros instrumentos en 2026 y qué alternativas existen para cuidar tus ahorros.",
     readTime: "7 min",
     date: "18 May 2026",
     image: "/fijo_vert.png",
     icon: BanknoteArrowUp,
     name: "fijo-vs-instrumentos",
+  },
+  {
+    id: 8,
+    category: "Mercado",
+    title:
+      "Dólar MEP vs CCL: la diferencia simple que cambia dónde terminan tus dólares",
+    excerpt:
+      "¿Dólar en Argentina o en el exterior? Explicamos la diferencia clave entre el dólar MEP y el CCL, en qué se usa cada uno, sus precios y errores frecuentes.",
+    readTime: "8 min",
+    date: "26 May 2026",
+    image: "/mep_ccl_vert.png",
+    icon: BarChart3,
+    name: "dolar-mep-vs-ccl",
     featured: true,
   },
   {
